@@ -10,7 +10,7 @@ export default function Home() {
     if (typeof window !== 'undefined' && window.pannellum) {
       window.pannellum.viewer(viewerRef.current, {
         type: 'equirectangular',
-        panorama: 'http://tassedecafe.org/wp-content/uploads/2013/01/parc-saint-pierre-amiens.jpg',
+        panorama: '/parc-saint-pierre-amiens.jpg',
         autoLoad: true,
         autoRotate: -2,
         compass: true,
